@@ -1,12 +1,10 @@
 %{
     #include <stdio.h>
     #include <stdlib.h>
-
-    int flag = 0;
 %}
 
-B [b-z]
 A [a]
+B [b-z]
 
 %%
 
@@ -15,13 +13,10 @@ A [a]
 
 %%
 
-int main() 
-{
-    yylex();
-    return 0;
-}
-
-int yywrap() 
-{
-    return 1;
-}
+int yywrap() { }
+   
+int main()
+ { 
+  yylex();
+  return 0;
+ }

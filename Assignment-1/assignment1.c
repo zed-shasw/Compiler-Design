@@ -1,20 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-#include <limits.h>
 #include <string.h>
 
-int fun(char *a)
+int solve(char *a)
 {
-    int l = strlen(a);
-    int count = 0;
+    int count = 0, l = strlen(a);
     for (int i = 0; i < l; i++)
     {
         if (a[i] == 'a')
             count++;
     }
-    count %= 2;
-    return count;
+    return count%2;
 }
 
 int main()
@@ -22,8 +18,8 @@ int main()
     char a[100];
     while (scanf("%s", a) == 1)
     {
-        int ret = fun(a);
-        if (ret == 0)
+        int temp = solve(a);
+        if (temp == 0)
         {
             printf("Following\n\n");
         }
