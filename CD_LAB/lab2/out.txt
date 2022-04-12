@@ -1,0 +1,21 @@
+Line 1 : SHARP
+Line 1 : IDENTIFIER include
+Line 1 : LT
+Line 1 : IDENTIFIER stdio
+Line 1 : DOT
+Line 1 : IDENTIFIER h
+Line 1 : GT
+Line 3 : INT
+Line 3 : MAIN
+Line 3 : OPENPAREN
+Line 3 : CLOSEDPAREN
+Line 4 : OPENCURLY
+Line 5 : PRINTF
+Line 5 : OPENPAREN
+Line 5 : STRING_CONSTANT "Hello World!\n"
+Line 5 : CLOSEDPAREN
+Line 5 : ENDLINE
+Line 6 : RETURN
+Line 6 : NUMBER 0
+Line 6 : ENDLINE
+Line 7 : CLOSEDCURLY
